@@ -15,7 +15,6 @@ The programming language I used was Python and the web framework, Django.
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
 * [Real Python](https://realpython.com/get-started-with-django-1/)
 * [Django](https://www.djangoproject.com/)
 
