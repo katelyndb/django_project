@@ -1,0 +1,24 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'base.css' %}" />
+<h1>{{ language.name }}</h1>
+<div class="detail_row">
+    <div class="detail_image_container">
+        <img src="{% static language.image %}" alt="" width="100%" class="detail_image">
+    </div>
+    <div class="information_column">
+        <h4>Description:</h4>
+        <p>{{ language.description }}</p>
+        <h4>History:</h4>
+        <p>{{ language.history }}</p>
+        <h4>Syntax:</h4>
+        <p>{{ language.syntax }}</p>
+        <h4>Example:</h4>
+        <p>{{ language.example }}</p>  
+        <div class="rating">
+            <h4>Katie's Personal Rating:</h4>
+            <h5>{{ language.rating }}</h5>
+            <p>{{ language.rating_reasoning }}</p>
+        </div>
+        
+    </div>
+</div>

@@ -1,0 +1,20 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'base.css' %}" />
+<h1>Programming Languages</h1>
+<div class="list_row">
+{% for language in languages %}
+    <div class="language_box">
+        <div class="card mb-2">
+            <img class="card-img-top" src="{% static language.image %}">
+            <div class="card-body">
+                <h5 class="card-title">{{ language.name }}</h5>
+                <p class="card-text">{{ language.description }}</p>
+                <a href="{% url 'language_detail' language.pk %}"
+                   class="btn btn-primary">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
