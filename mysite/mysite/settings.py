@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'hello',
     'home',
     'languages',
+    'navigation',
 ]
 
 MIDDLEWARE = [
