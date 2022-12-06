@@ -3,37 +3,45 @@
 h1 {padding: 6px 12px;}
 h1,h2,h3,h4 {font-family: 'Georgia', sans-serif;margin:10px 0;}
 hr {border:0; border-top:2px solid; margin:20px 0;}
-body {font-family: 'Georgia', sans-serif; margin:0; background-color:white; border-style: solid; border-color: #4c96d7; border-width: 5px; margin:5%; }
+body {font-family: 'Georgia', sans-serif; margin:0; background-color:white; border-style: solid;  border-width: 5px; margin:5%; }
 html {box-sizing: border-box;}
-th, td {padding: 20px;border: 1px solid black;}
+th, td {padding: 20px;border: 1px solid black;border-radius: 25px;}
 img {max-width: 100%;}
-hr {color:#3a3a3a; border: 2px solid #3a3a3a;}
-table {table-layout: fixed;width: 100%;border-collapse: collapse;border: 3px solid #4c96d7;text-align: center;vertical-align: middle;color: #333;}
+hr {color:#3a3a3a; border: 2px solid #3a3a3a;border-radius: 25px;}
+table {table-layout: fixed;width: 100%;border-collapse: collapse;border-radius: 25px;border: 3px solid #4c96d7;text-align: center;vertical-align: middle;color: #333;}
 form > input {font-size: 1.3rem; line-height: 1.2;padding: 5px;}
 .small_padding {padding: 3px 6px;}
 .medium_padding {padding: 6px 12px;}
 .large_padding {padding: 10px 20px;}
 .centered_item {width:auto; text-align:center;}
+img{max-height: 225px;}
 /*----*/
 
 
 /* language_detail */
 .detail_image_container {
-    border: 3px solid #19323C;
+    margin: auto;
+    max-width: 70%;
+    max-height: 70%;
+    
 }
 .detail_row {
     padding: 10px;
     display: grid;
     grid-template-rows: 1fr 1fr ;
-    background-color: #A93F55;
+    background-color: #8aabbc;
 }
 
 .detail_image {
-    max-width: 1px;
+    max-width: 80%;
+    max-height: 80%;
+    border: 3px solid #19323C;
+    border-radius: 25px;
 }
 .information_column{
     display:grid;
-    background-color: #A93F55;
+    background-color: #accfc4;
+    margin: auto;
 }
 .rating{
     display: grid;
@@ -48,12 +56,13 @@ form > input {font-size: 1.3rem; line-height: 1.2;padding: 5px;}
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #A93F55;
+    background-color: #b4dfb5;
 
 }
 .language_box {
     padding: 5px 10px;
     border: 3px solid #19323C;
+    border-radius: 25px;
 }
 
 /*----*/

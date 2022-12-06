@@ -1,0 +1,18 @@
+/* General Stuff */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+h1 {padding: 6px 12px;}
+h1,h2,h3,h4 {font-family: 'Georgia', sans-serif;margin:10px 0;}
+hr {border:0; border-top:2px solid; margin:20px 0;}
+body {font-family: 'Georgia', sans-serif; margin:0; background-color:white; border-style: solid; border-color: #4c96d7; border-width: 5px; margin:5%; }
+html {box-sizing: border-box;}
+th, td {padding: 20px;border: 1px solid black;}
+img {max-width: 100%;}
+hr {color:#3a3a3a; border: 2px solid #3a3a3a;}
+table {table-layout: fixed;width: 100%;border-collapse: collapse;border: 3px solid #4c96d7;text-align: center;vertical-align: middle;color: #333;}
+form > input {font-size: 1.3rem; line-height: 1.2;padding: 5px;}
+.small_padding {padding: 3px 6px;}
+.medium_padding {padding: 6px 12px;}
+.large_padding {padding: 10px 20px;}
+.centered_item {width:auto; text-align:center;}
+.cat-image {max-width: 200px; border: solid 2px black;}
+/*----*/
