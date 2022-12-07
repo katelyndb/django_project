@@ -7,8 +7,8 @@ The second part of my project is the home app which uses a database to populate 
 The third part is of my own creation called languages, which uses a database to populate the different programming languages I am learning.
 The fourth part is another app called cats where static images are displayed.
 
-[Original Software Demo Video](https://youtu.be/2JfGgeUZkB4)
-[Updated Software Demo Video](https://youtu.be/V4L2HdeAIA8)
+*[Original Software Demo Video](https://youtu.be/2JfGgeUZkB4)
+*[Updated Software Demo Video](https://youtu.be/V4L2HdeAIA8)
 
 
 # Development Environment
